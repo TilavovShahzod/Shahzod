@@ -1,0 +1,50 @@
+/* Umumiy tugmalar */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border: 1px solid #D8E0EC;
+    border-radius: 8px;
+    background: #fff;
+    color: #17233B;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #E7EDF6;
+}
+
+.btn-primary {
+    background: #1c5cab;
+    color: #fff;
+    border-color: #1c5cab;
+}
+
+.btn-primary:hover {
+    background: #17508f;
+}
+
+.btn-success {
+    background: #0ca30c;
+    color: #fff;
+    border-color: #0ca30c;
+}
+
+.btn-success:hover {
+    background: #0a7d0a;
+}
+
+.btn-secondary {
+    background: #5B6C8B;
+    color: #fff;
+    border-color: #5B6C8B;
+}
+
+.btn-secondary:hover {
+    background: #46587A;
+}
